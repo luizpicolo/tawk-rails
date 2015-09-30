@@ -1,5 +1,7 @@
 # TawkRails
 
+[![Gem Version](https://badge.fury.io/rb/tawk_rails.svg)](http://badge.fury.io/rb/tawk_rails)
+
 Rails simple helper for [Tawk](https://www.tawk.to/) live chat script.
 
 ## Installation
