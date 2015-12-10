@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Create file `tawk.rb` in `config/initialize/tawk.rb` and add
+Create file `tawk.rb` in `config/initializes/tawk.rb` and add
 
     TawkRails.configure do |config|
       config.id_site = 'replace-me-with-your-id_site'
