@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["luizpicolo@gmail.com"]
   spec.summary       = %q{Rails helper for Tawk.to live chat script.}
   spec.description   = %q{Rails helper for Tawk.to live chat.}
-  spec.homepage      = "https://github.com/luizpicolo/tawk_rails"
+  spec.homepage      = "https://github.com/luizpicolo/tawk-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
