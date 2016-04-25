@@ -30,6 +30,10 @@ place render method where you want in view.
 
     <%= tawk_init %>
 
+you can pass js methods as string to the helper https://www.tawk.to/javascript-api/
+
+   <%= tawk_init "Tawk_API.onStatusChange = function(status){console.log(status);}; Tawk_API.visitor = {name  : 'Name', email : 'email@email.com'};" %>
+
 ## Contributing
 
 1. Fork it ( https://github.com/luizpicolo/tawk_rails/fork )
