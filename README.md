@@ -22,9 +22,11 @@ Or install it yourself as:
 
 Create file `tawk.rb` in `config/initializers/tawk.rb` and add
 
-    TawkRails.configure do |config|
-      config.id_site = 'replace-me-with-your-id_site'
-    end
+```ruby
+TawkRails.configure do |config|
+  config.id_site = 'replace-me-with-your-id_site'
+end
+```
 
 place render method where you want in view.
 
@@ -32,7 +34,7 @@ place render method where you want in view.
 
 you can pass js methods as string to the helper https://www.tawk.to/javascript-api/
 
-    <%= tawk_init "Tawk_API.onStatusChange = function(status){console.log(status);}; Tawk_API.visitor = {name  : 'Name', email : 'email@email.com'};" %>```
+    <%= tawk_init "Tawk_API.onStatusChange = function(status){console.log(status);}; Tawk_API.visitor = {name  : 'Name', email : 'email@email.com'};" %>
 
 ## Contributing
 

@@ -2,7 +2,6 @@ require 'spec_helper'
 require_relative '../../lib/tawk_rails/configuration'
 
 describe TawkRails::Configuration do
-
   before do
     TawkRails.configure do |config|
       config.id_site = 'replace-me-with-your-id_site'
@@ -18,5 +17,4 @@ describe TawkRails::Configuration do
     expect(TawkRails.configuration.version).to be_a_kind_of(String)
     expect(TawkRails.configuration.version).to eq '1.0.2'
   end
-
 end
