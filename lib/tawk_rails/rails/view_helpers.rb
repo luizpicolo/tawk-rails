@@ -7,9 +7,8 @@ module TawkRails::Rails
 
   module ViewHelpers
 
-    def tawk_init
-
-      queue = TawkRails::Chatbox.new
+    def tawk_init(params = nil)
+      queue = TawkRails::Chatbox.new(params)
       queue.render_script.html_safe
 
     end
