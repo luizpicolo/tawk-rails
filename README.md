@@ -9,7 +9,9 @@ Rails simple helper for [Tawk](https://www.tawk.to/) live chat script.
 
 Add this line to your application's Gemfile:
 
-    gem 'tawk_rails'
+```ruby
+gem 'tawk_rails'
+```
 
 And then execute:
 
