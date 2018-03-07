@@ -31,11 +31,13 @@ TawkRails.configure do |config|
 end
 ```
 
-place render method where you want in view.
+Place render method where you want in view.
 
     <%= tawk_init %>
 
-you can pass js methods as string to the helper https://www.tawk.to/javascript-api/
+Make sure to put `tawk_init` into HTML body if you use Turbolinks.
+
+You can pass js methods as string to the helper https://www.tawk.to/javascript-api/
 
     <%= tawk_init "Tawk_API.onStatusChange = function(status){console.log(status);}; Tawk_API.visitor = {name  : 'Name', email : 'email@email.com'};" %>
 
