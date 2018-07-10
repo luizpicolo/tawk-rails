@@ -3,7 +3,7 @@
 [![Gem Version](https://badge.fury.io/rb/tawk_rails.svg)](http://badge.fury.io/rb/tawk_rails)
 [![Build  Status](https://travis-ci.org/luizpicolo/tawk-rails.svg?branch=master)](https://travis-ci.org/luizpicolo/tawk-rails)
 
-Rails simple helper for [Tawk](https://www.tawk.to/) live chat script.
+Rails simple helper for [Tawk](https://www.tawk.to/) live chat script. Work rails >= 4
 
 ## Installation
 
